@@ -74,7 +74,7 @@ Task {
 }
 ```
 
-## 🛠️ Before you Buile
+## 🛠️ Before you Build
 
 Before you run this project in Xcode:
 1. Download, install, and launch the latest version of Xcode.
