@@ -73,3 +73,19 @@ Task {
 	}
 }
 ```
+
+## 🛠️ Before you Buile
+
+Before you run this project in Xcode:
+1. Download, install, and launch the latest version of Xcode.
+2. In Safari, visit the [Certificates, Identifiers, and Profiles](https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2Fresources%2F&rv=1) section of the developer website.
+3. Select Identifiers and click the Add button to create a new App ID for WeatherPlan. Follow the steps until you reach the Register an App ID page.
+4. For the Bundle ID, select Explicit, and enter a unique bundle identifier. Use a reverse-DNS format for your identifier, as [Preparing your app for distribution](https://developer.apple.com/documentation/xcode/preparing-your-app-for-distribution) describes.
+5. Click the App Services tab, and select the WeatherKit checkbox.
+6. Complete the App ID creation process.
+7. Wait 30 minutes while the service registers your app’s bundle ID.
+8. In Xcode, from the Project navigator, select the WeatherPlan project and click the Signing & Capabilities tab.
+9. Enter the unique bundle ID from step 4 in the Bundle Identifier field of the WeatherKit target.
+10. From the scheme pop-up menu, select a run destination.
+11. If necessary, click Register Device on the Signing & Capabilities tab to create the provisioning profile.
+12. On the toolbar, click Run, or choose Product > Run.
