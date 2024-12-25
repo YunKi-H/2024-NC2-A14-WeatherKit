@@ -1,6 +1,6 @@
 # 2024-NC2-A14-WeatherKit
 ## 🎥 Youtube Link
-(추후 만들어진 유튜브 링크 추가)
+[WeatherKit](https://youtu.be/ebXouR47Qiw?si=t6h6qLLPst74z5T1)
 
 ## 💡 About WeatherKit
 
